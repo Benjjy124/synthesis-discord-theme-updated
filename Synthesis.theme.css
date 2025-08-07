@@ -9,11 +9,9 @@
  * @source https://github.com/Saltssaumure/synthesis-discord-theme
  * @donate https://ko-fi.com/saltssaumure
 */
-@import url("synth.min.css");
-/* @import url('assets:////Users/benja/AppData/Roaming/BetterDiscord/themes/synth.min.css'); */
-/* @import url("https://saltssaumure.github.io/synthesis-discord-theme/synth.min.css"); */
-
+@import url("https://benjjy124.github.io/synthesis-discord-theme-updated/synth.min.css");
 /* See https://github.com/Saltssaumure/synthesis-discord-theme#customisation for customisation settings. */
+
 :root {
     --synth-background-image:   url(https://saltssaumure.github.io/synthesis-discord-theme/backgrounds/default.avif);
     --synth-backdrop-opacity:   0.3         ;
