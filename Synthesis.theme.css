@@ -9,28 +9,29 @@
  * @source https://github.com/Saltssaumure/synthesis-discord-theme
  * @donate https://ko-fi.com/saltssaumure
 */
-
-@import url("https://saltssaumure.github.io/synthesis-discord-theme/synth.min.css");
+@import url("synth.min.css");
+/* @import url('assets:////Users/benja/AppData/Roaming/BetterDiscord/themes/synth.min.css'); */
+/* @import url("https://saltssaumure.github.io/synthesis-discord-theme/synth.min.css"); */
 
 /* See https://github.com/Saltssaumure/synthesis-discord-theme#customisation for customisation settings. */
 :root {
     --synth-background-image:   url(https://saltssaumure.github.io/synthesis-discord-theme/backgrounds/default.avif);
     --synth-backdrop-opacity:   0.3         ;
-    --synth-overlay-color:      255 165 0   ;
-    --synth-crt-light:          255 255 255 ;
+    --synth-overlay-color:      255 165 0   ; /* rgb(255,165,0) */
+    --synth-crt-light:          255 255 255 ; /* rgb(255,255,255) */
     --synth-crt-dark:           0   0   0   ;
-    --synth-crt-flicker:        none        ;   /* This is a fast flickering effect and may not be suitable for those with photosensitive epilepsy. */
+    --synth-crt-flicker:        none     ;   /* This is a fast flickering effect and may not be suitable for those with photosensitive epilepsy. */
 
-    --synth-color-background:   20  6   36  ;
-    --synth-color-foreground:   255 165 0   ;
-    --synth-color-shadow:       0   0   128 ;
-    --synth-color-button:       84  63  251 ;
-    --synth-color-pop:          206 63  251 ;
-    --synth-color-blurple:      88  101 242 ;
-    --synth-color-text:         255 255 255 ;
+    --synth-color-background:   20  6   36  ; /* rgb(20,6,36) */
+    --synth-color-foreground:   255 165 0   ; /* rgb(255,165,0) */
+    --synth-color-shadow:       0   0   128 ; /* rgb(0,0,128) */
+    --synth-color-button:       84  63  251 ; /* rgb(84,63,251) */
+    --synth-color-pop:          206 63  251 ; /* rgb(206,63,251) */
+    --synth-color-blurple:      88  101 242 ; /* rgb(88,101,242) */
+    --synth-color-text:         255 255 255 ; /* rgb(255,255,255) */
 
-    --synth-color-red:          243 67  131 ;
-    --synth-color-yellow:       255 165 0   ;
-    --synth-color-green:        52  172 140 ;
-    --synth-color-twitch:       89  54  149 ;
+    --synth-color-red:          243 67  131 ; /* rgb(243,67,131) */
+    --synth-color-yellow:       255 165 0   ; /* rgb(255,165,0) */
+    --synth-color-green:        52  172 140 ; /* rgb(52,172,140) */
+    --synth-color-twitch:       89  54  149 ; /* rgb(89,54,149) */
 }
